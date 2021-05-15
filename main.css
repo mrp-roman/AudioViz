@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* #h1-main {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    height: 10%;
+    position: fixed;
+    z-index: 100;
+    right: calc((100%  - 10% - 20px)/2)
+} */
+
+#thefile {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    width: 10%;
+}
+  
+#canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+audio {
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    width: calc(100% - 10px);
+    border-radius: 0;
+}
